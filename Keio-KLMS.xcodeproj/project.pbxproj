@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		05F5E3912DACAA5100654675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F5E3732DACAA5000654675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F5E37A2DACAA5000654675;
+			remoteInfo = "Keio-KLMS";
+		};
+		05F5E39B2DACAA5100654675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F5E3732DACAA5000654675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F5E37A2DACAA5000654675;
+			remoteInfo = "Keio-KLMS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F5E37B2DACAA5000654675 /* Keio-KLMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keio-KLMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F5E3902DACAA5100654675 /* Keio-KLMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keio-KLMSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F5E39A2DACAA5100654675 /* Keio-KLMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keio-KLMSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		05F5E37D2DACAA5000654675 /* Keio-KLMS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Keio-KLMS";
+			sourceTree = "<group>";
+		};
+		05F5E3932DACAA5100654675 /* Keio-KLMSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Keio-KLMSTests";
+			sourceTree = "<group>";
+		};
+		05F5E39D2DACAA5100654675 /* Keio-KLMSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Keio-KLMSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F5E3782DACAA5000654675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E38D2DACAA5100654675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E3972DACAA5100654675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F5E3722DACAA5000654675 = {
+			isa = PBXGroup;
+			children = (
+				05F5E37D2DACAA5000654675 /* Keio-KLMS */,
+				05F5E3932DACAA5100654675 /* Keio-KLMSTests */,
+				05F5E39D2DACAA5100654675 /* Keio-KLMSUITests */,
+				05F5E37C2DACAA5000654675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F5E37C2DACAA5000654675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F5E37B2DACAA5000654675 /* Keio-KLMS.app */,
+				05F5E3902DACAA5100654675 /* Keio-KLMSTests.xctest */,
+				05F5E39A2DACAA5100654675 /* Keio-KLMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F5E37A2DACAA5000654675 /* Keio-KLMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5E3A42DACAA5100654675 /* Build configuration list for PBXNativeTarget "Keio-KLMS" */;
+			buildPhases = (
+				05F5E3772DACAA5000654675 /* Sources */,
+				05F5E3782DACAA5000654675 /* Frameworks */,
+				05F5E3792DACAA5000654675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				05F5E37D2DACAA5000654675 /* Keio-KLMS */,
+			);
+			name = "Keio-KLMS";
+			packageProductDependencies = (
+			);
+			productName = "Keio-KLMS";
+			productReference = 05F5E37B2DACAA5000654675 /* Keio-KLMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F5E38F2DACAA5100654675 /* Keio-KLMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5E3A72DACAA5100654675 /* Build configuration list for PBXNativeTarget "Keio-KLMSTests" */;
+			buildPhases = (
+				05F5E38C2DACAA5100654675 /* Sources */,
+				05F5E38D2DACAA5100654675 /* Frameworks */,
+				05F5E38E2DACAA5100654675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F5E3922DACAA5100654675 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05F5E3932DACAA5100654675 /* Keio-KLMSTests */,
+			);
+			name = "Keio-KLMSTests";
+			packageProductDependencies = (
+			);
+			productName = "Keio-KLMSTests";
+			productReference = 05F5E3902DACAA5100654675 /* Keio-KLMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F5E3992DACAA5100654675 /* Keio-KLMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5E3AA2DACAA5100654675 /* Build configuration list for PBXNativeTarget "Keio-KLMSUITests" */;
+			buildPhases = (
+				05F5E3962DACAA5100654675 /* Sources */,
+				05F5E3972DACAA5100654675 /* Frameworks */,
+				05F5E3982DACAA5100654675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F5E39C2DACAA5100654675 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05F5E39D2DACAA5100654675 /* Keio-KLMSUITests */,
+			);
+			name = "Keio-KLMSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Keio-KLMSUITests";
+			productReference = 05F5E39A2DACAA5100654675 /* Keio-KLMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F5E3732DACAA5000654675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					05F5E37A2DACAA5000654675 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					05F5E38F2DACAA5100654675 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 05F5E37A2DACAA5000654675;
+					};
+					05F5E3992DACAA5100654675 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 05F5E37A2DACAA5000654675;
+					};
+				};
+			};
+			buildConfigurationList = 05F5E3762DACAA5000654675 /* Build configuration list for PBXProject "Keio-KLMS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F5E3722DACAA5000654675;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05F5E37C2DACAA5000654675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F5E37A2DACAA5000654675 /* Keio-KLMS */,
+				05F5E38F2DACAA5100654675 /* Keio-KLMSTests */,
+				05F5E3992DACAA5100654675 /* Keio-KLMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F5E3792DACAA5000654675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E38E2DACAA5100654675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E3982DACAA5100654675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F5E3772DACAA5000654675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E38C2DACAA5100654675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F5E3962DACAA5100654675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F5E3922DACAA5100654675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F5E37A2DACAA5000654675 /* Keio-KLMS */;
+			targetProxy = 05F5E3912DACAA5100654675 /* PBXContainerItemProxy */;
+		};
+		05F5E39C2DACAA5100654675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F5E37A2DACAA5000654675 /* Keio-KLMS */;
+			targetProxy = 05F5E39B2DACAA5100654675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05F5E3A22DACAA5100654675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F5E3A32DACAA5100654675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F5E3A52DACAA5100654675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Keio-KLMS/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DL39B96L3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RihitoKotani.Keio-KLMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05F5E3A62DACAA5100654675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Keio-KLMS/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DL39B96L3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RihitoKotani.Keio-KLMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05F5E3A82DACAA5100654675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DL39B96L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RihitoKotani.Keio-KLMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keio-KLMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Keio-KLMS";
+			};
+			name = Debug;
+		};
+		05F5E3A92DACAA5100654675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DL39B96L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RihitoKotani.Keio-KLMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keio-KLMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Keio-KLMS";
+			};
+			name = Release;
+		};
+		05F5E3AB2DACAA5100654675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DL39B96L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RihitoKotani.Keio-KLMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Keio-KLMS";
+			};
+			name = Debug;
+		};
+		05F5E3AC2DACAA5100654675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DL39B96L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RihitoKotani.Keio-KLMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Keio-KLMS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F5E3762DACAA5000654675 /* Build configuration list for PBXProject "Keio-KLMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E3A22DACAA5100654675 /* Debug */,
+				05F5E3A32DACAA5100654675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5E3A42DACAA5100654675 /* Build configuration list for PBXNativeTarget "Keio-KLMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E3A52DACAA5100654675 /* Debug */,
+				05F5E3A62DACAA5100654675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5E3A72DACAA5100654675 /* Build configuration list for PBXNativeTarget "Keio-KLMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E3A82DACAA5100654675 /* Debug */,
+				05F5E3A92DACAA5100654675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5E3AA2DACAA5100654675 /* Build configuration list for PBXNativeTarget "Keio-KLMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5E3AB2DACAA5100654675 /* Debug */,
+				05F5E3AC2DACAA5100654675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F5E3732DACAA5000654675 /* Project object */;
+}
