@@ -8,7 +8,7 @@
 import SwiftUI
 
 class loginData : ObservableObject{
-    @AppStorage("keioid") private var keioid: String = ""
+    @AppStorage("keioid") private var keioid: String = "aaa"
     @AppStorage("password") private var password: String = ""
     
     var credentials: (String, String) {
